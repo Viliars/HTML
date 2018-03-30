@@ -16,17 +16,8 @@
 <svg id="e1" height="740" width="1000">
 
 <rect  height="740" width="1000" fill="white" stroke="blue" stroke-width="3"/>
+
 </svg>
 </div>
-<script type="text/javascript">
-		var el = document.getElementById('el');
-			el.addEventListener('click', getClickXY, false);
-		function getClickXY(event)
-		  {
-			var clickX = (event.layerX == undefined ? event.offsetX : event.layerX) + 1;
-			var clickY = (event.layerY == undefined ? event.offsetY : event.layerY) + 1;
-			alert('Координаты клика: '+ clickX +' x '+ clickY);
-		  }
-	</script>
 </body>
 </html>
